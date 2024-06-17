@@ -1,7 +1,5 @@
-import {
-  AccessAlarm as AccessAlarmIcon,
-  ThreeDRotation as NiceIcon,
-} from '@mui/icons-material';
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import NiceIcon from '@mui/icons-material/ThreeDRotation';
 
 export function MuiDemo({ title }: { title: string }) {
   return (
