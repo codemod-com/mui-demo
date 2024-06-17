@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-import NxWelcome from './nx-welcome';
+import MuiDemo from './mui-demo';
 
 const StyledApp = styled.div`
   // Your style here
@@ -9,7 +9,7 @@ const StyledApp = styled.div`
 export function App() {
   return (
     <StyledApp>
-      <NxWelcome title="mui-demo" />
+      <MuiDemo title="mui-demo" />
     </StyledApp>
   );
 }

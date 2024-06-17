@@ -11,6 +11,8 @@
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tslib": "^2.3.0"
@@ -64,5 +66,10 @@
   },
   "nx": {
     "includedScripts": []
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@mui/icons-material@5.15.20": "patches/@mui__icons-material@5.15.20.patch"
+    }
   }
 }
