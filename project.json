@@ -1,0 +1,9 @@
+{
+  "name": "mui-demo",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "./src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project mui-demo --web",
+  "targets": {}
+}
